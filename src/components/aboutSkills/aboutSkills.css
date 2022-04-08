@@ -1,0 +1,226 @@
+.aboutSkillsContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 90vw;
+  height: 70vh;
+  margin: auto;
+}
+.aboutskillsCircleBox {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutskillsCircle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  width: 235px;
+  height: 235px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--purpleGradient2);
+  border-radius: 50%;
+  box-shadow: 1px 5px 20px 3px gray;
+}
+
+.aboutskillsCircleLogo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  transform: rotate(0deg) translate(12em) rotate(0 deg);
+}
+
+.aboutskillsCircle .aboutskillsCircleHtml,
+.aboutskillsCircleCss,
+.aboutskillsCircleBoostrap,
+.aboutskillsCircleJs,
+.aboutskillsCircleReact,
+.aboutskillsCirclePhp,
+.aboutskillsCircleMySql {
+  position: absolute;
+  width: 30px;
+}
+.aboutskillsCircleHtml {
+  top: 1em;
+  transform: rotate(0deg) translate(12em) rotate(0 deg);
+}
+
+.aboutskillsCircleCss {
+  transform: rotate(315deg) translate(6em) rotate(-315deg);
+}
+.aboutskillsCircleBoostrap {
+  transform: rotate(0deg) translate(6em) rotate(-0deg);
+}
+.aboutskillsCircleJs {
+  transform: rotate(55deg) translate(6em) rotate(-55deg);
+}
+
+.aboutskillsCircleReact {
+  transform: rotate(120deg) translate(6em) rotate(-120deg);
+}
+
+.aboutskillsCirclePhp {
+  transform: translate(-6em);
+}
+.aboutskillsCircleMySql {
+  transform: rotate(225deg) translate(6em) rotate(-225deg);
+}
+
+.aboutSkillsMe {
+  width: 100%;
+  padding: 30px;
+}
+
+@media (min-width: 768px) {
+  .aboutSkillsContainer {
+    height: 68vh;
+  }
+  .aboutskillsCircleBox {
+    width: 50%;
+  }
+  .aboutskillsCircle {
+    width: 320px;
+    height: 320px;
+  }
+  .aboutskillsCircleLogo {
+    width: 120px;
+  }
+
+  .aboutskillsCircle .aboutskillsCircleHtml,
+  .aboutskillsCircleCss,
+  .aboutskillsCircleBoostrap,
+  .aboutskillsCircleJs,
+  .aboutskillsCircleReact,
+  .aboutskillsCirclePhp,
+  .aboutskillsCircleMySql {
+    width: 35px;
+  }
+
+  .aboutskillsCircleHtml {
+    top: 1em;
+    transform: rotate(0deg) translate(12em) rotate(0 deg);
+  }
+
+  .aboutskillsCircleCss {
+    transform: rotate(315deg) translate(7em) rotate(-315deg);
+  }
+  .aboutskillsCircleBoostrap {
+    transform: rotate(0deg) translate(7em) rotate(-0deg);
+  }
+  .aboutskillsCircleJs {
+    transform: rotate(55deg) translate(7em) rotate(-55deg);
+  }
+
+  .aboutskillsCircleReact {
+    transform: rotate(120deg) translate(7em) rotate(-120deg);
+  }
+
+  .aboutskillsCirclePhp {
+    transform: translate(-7em);
+  }
+  .aboutskillsCircleMySql {
+    transform: rotate(225deg) translate(7em) rotate(-225deg);
+  }
+
+  .aboutSkillsMe {
+    width: 50%;
+    padding: 50px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  /*  .aboutskillsCircleLogo {
+        width: 200px;
+      } */
+  .aboutSkillsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 60vh;
+  }
+
+  .aboutskillsCircle {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+/*  .aboutskillsCircle .aboutskillsCircleHtml,
+  .aboutskillsCircleCss,
+  .aboutskillsCircleBoostrap,
+  .aboutskillsCircleJs,
+  .aboutskillsCircleReact,
+  .aboutskillsCirclePhp,
+  .aboutskillsCircleMySql {
+    width: 50px;
+  }
+
+  .aboutskillsCircleHtml {
+    top: 1em;
+    transform: rotate(0deg) translate(12em) rotate(0 deg);
+  }
+
+  .aboutskillsCircleCss {
+    transform: rotate(315deg) translate(9em) rotate(-315deg);
+  }
+  .aboutskillsCircleBoostrap {
+    transform: rotate(0deg) translate(9em) rotate(-0deg);
+  }
+  .aboutskillsCircleJs {
+    transform: rotate(55deg) translate(9em) rotate(-55deg);
+  }
+
+  .aboutskillsCircleReact {
+    transform: rotate(120deg) translate(9em) rotate(-120deg);
+  }
+
+  .aboutskillsCirclePhp {
+    transform: translate(-9em);
+  }
+  .aboutskillsCircleMySql {
+    transform: rotate(225deg) translate(9em) rotate(-225deg);
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+    .aboutskillsCircle {
+
+    }
+
+    .aboutskillsCircleHtml {
+      top: 1em;
+      transform: rotate(0deg) translate(12em) rotate(0 deg);
+    }
+  
+    .aboutskillsCircleCss {
+      transform: rotate(315deg) translate(12em) rotate(-315deg);
+    }
+    .aboutskillsCircleBoostrap {
+      transform: rotate(0deg) translate(12em) rotate(-0deg);
+    }
+    .aboutskillsCircleJs {
+      transform: rotate(55deg) translate(12em) rotate(-55deg);
+    }
+  
+    .aboutskillsCircleReact {
+      transform: rotate(120deg) translate(12em) rotate(-120deg);
+    }
+  
+    .aboutskillsCirclePhp {
+      transform: translate(-12em);
+    }
+    .aboutskillsCircleMySql {
+      transform: rotate(225deg) translate(12em) rotate(-225deg);
+    }
+  }
+   */

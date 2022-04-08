@@ -1,0 +1,5 @@
+.gralContainer {
+  width: 100%;
+  background: var(--purpleGradient);
+  height: 100%;
+}

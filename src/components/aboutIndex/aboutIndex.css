@@ -1,0 +1,40 @@
+.aboutIndex {
+  width: 100vw;
+  height: 30vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutIndexTitle {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.aboutIndexParagraph {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .aboutIndex {
+    padding: 0px 100px;
+    height: 25vh;
+  }
+  .aboutIndexTitle {
+    font-size: 2rem;
+  }
+
+  .aboutIndexParagraph {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024) {
+  .aboutIndex {
+    padding: 0px 100px;
+    height: 22vh;
+  }
+}

@@ -1,0 +1,28 @@
+.containerLogo {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0 10px;
+  height: 20vh;
+}
+
+.logo1 {
+  max-width: 750px;
+  width: 100%;
+  box-shadow: 0 0 20px 15px Crinsom;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .containerLogo {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .containerLogo {
+    height: 29vh;
+  }
+}

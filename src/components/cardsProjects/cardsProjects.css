@@ -1,0 +1,149 @@
+.cardProjectsContainer {
+  background-color: greenyellow;
+  height: 70vh;
+}
+
+.cardsProjects {
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px 10px;
+  box-shadow: 1px 1px 1px 1px var(--gray);
+  margin: auto;
+  background: green;
+}
+
+.cardsProjectsImg {
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+
+  margin-bottom: 30px;
+}
+
+.cardsProjectsTitle {
+  color: var(--blue);
+}
+.cardsProjectsImgBox {
+  background-color: rgba(196, 196, 196, 0.2);
+  box-shadow: 1px 1px 5px -1px var(--gray);
+  border-radius: 10px;
+  padding: 20px;
+}
+.cardsProjectsParagraphBox {
+  padding: 20px;
+}
+.cardsProjectsParagraph {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+}
+.cardsProjectsPrice {
+  padding-bottom: 30px;
+}
+.btnAdd {
+  border-radius: 50px;
+  padding: 0.5rem 5rem;
+  background-color: var(--lightBlue);
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px var(--gray);
+  color: var(--white);
+  font-size: 0.6rem;
+}
+
+.btnAdd:hover {
+  background-color: var(--orange);
+}
+
+.cardsProjects2 {
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px var(--gray);
+  margin: auto;
+  background-color: var(--white);
+}
+.cardsProjects2Title {
+  color: var(--blue);
+  font-size: 1.5rem;
+}
+.cardsProjects2Box {
+  display: block;
+  padding: 10px 20px;
+}
+
+.cardsProjects2ImgBox {
+  width: 50%;
+  margin: auto;
+  background-color: rgba(196, 196, 196, 0.2);
+  box-shadow: 1px 1px 5px -1px var(--gray);
+  border-radius: 10px;
+  padding: 20px;
+}
+.cardsProjects2ParagraphBox {
+  width: 100%;
+  padding: 10px 20px;
+  margin: auto;
+  text-align: left;
+}
+.cardsProjects2Paragraph {
+  font-size: 0.8rem;
+}
+
+.cardsProjects2Img {
+  width: 70%;
+}
+span {
+  font-weight: bolder;
+}
+.cardsProjects2Buttons {
+  width: 70%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .cardsProjects {
+    width: 300px;
+  }
+  .cardsProjects2 {
+    width: 700px;
+  }
+  .cardsProjects2Title {
+    font-size: 2rem;
+  }
+  .cardsProjects2Box {
+    display: flex;
+    justify-content: center;
+  }
+  .cardsProjects2Paragraph {
+    font-size: 1rem;
+  }
+
+  .btnAdd {
+    font-size: 0.8rem;
+  }
+  .cardsProjects2Buttons {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btnAdd {
+    font-size: 1rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .cardProjectsContainer {
+    height: 65vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cardProjectsContainer {
+    height: 60vh;
+  }
+}

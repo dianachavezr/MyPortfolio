@@ -1,0 +1,22 @@
+.containerLogo2 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding: 30px;
+  height: 15vh;
+}
+
+.containerLogo2 img {
+  width: 100px;
+}
+
+@media (min-width: 1024px) {
+  .containerLogo2 {
+    padding: 0 0 0 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+}

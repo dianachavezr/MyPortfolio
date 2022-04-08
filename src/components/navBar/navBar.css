@@ -1,0 +1,22 @@
+.navContainer {
+  box-shadow: 1px 5px 20px 3px gray;
+}
+
+.navbar-nav,
+.mr-auto {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav,
+  .mr-auto {
+    height: 10vh;
+  }
+}
