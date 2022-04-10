@@ -8,6 +8,7 @@ import Redes from '../components/redes/Redes'
 import AnimatedPage from './AnimatedPage'
 
 
+
 const Index = () => {
   return (
     <AnimatedPage >

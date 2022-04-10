@@ -6,69 +6,65 @@
 .cardsProjects {
   width: 250px;
   text-align: center;
-  border-radius: 10px;
-  padding: 30px 10px;
-  box-shadow: 1px 1px 1px 1px var(--gray);
+  box-shadow: 1px 10px 25px black;
+  padding-bottom: 10px;
   margin: auto;
-  background: green;
+  background: var(--purpleGradient2);
+}
+.cardsProjectsImgBox{
+  background-color: red;
+  height: 250px;
 }
 
 .cardsProjectsImg {
   display: block;
-  width: 70%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   margin: auto;
 
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .cardsProjectsTitle {
-  color: var(--blue);
+  color: var(--black);
+  font-family: 'Fredoka One', cursive;
+  padding: 10px;
 }
-.cardsProjectsImgBox {
-  background-color: rgba(196, 196, 196, 0.2);
-  box-shadow: 1px 1px 5px -1px var(--gray);
-  border-radius: 10px;
-  padding: 20px;
-}
-.cardsProjectsParagraphBox {
-  padding: 20px;
-}
+
+
 .cardsProjectsParagraph {
   font-size: 0.8rem;
-  padding-bottom: 10px;
+
 }
-.cardsProjectsPrice {
-  padding-bottom: 30px;
-}
-.btnAdd {
+
+.btnVer {
   border-radius: 50px;
   padding: 0.5rem 5rem;
   background-color: var(--lightBlue);
   border: none;
   cursor: pointer;
-  box-shadow: 1px 1px 1px 1px var(--gray);
-  color: var(--white);
-  font-size: 0.6rem;
-}
 
-.btnAdd:hover {
-  background-color: var(--orange);
+  color: var(--black);
+  text-decoration: underline;
+  font-size: 0.6rem;
 }
 
 .cardsProjects2 {
   width: 100%;
   text-align: center;
-  border-radius: 10px;
+
   padding: 20px;
-  box-shadow: 1px 1px 1px 1px var(--gray);
+  box-shadow: 1px 10px 25px black;
   margin: auto;
-  background-color: var(--white);
+  background: rgba(0,0,0,1);
+  color: var(--white);
+
 }
 .cardsProjects2Title {
-  color: var(--blue);
+  color: var(--white);
   font-size: 1.5rem;
+  font-family: 'Fredoka One', cursive;
 }
 .cardsProjects2Box {
   display: block;
@@ -76,12 +72,15 @@
 }
 
 .cardsProjects2ImgBox {
-  width: 50%;
+  width: 100%;
+  height:auto;
   margin: auto;
-  background-color: rgba(196, 196, 196, 0.2);
-  box-shadow: 1px 1px 5px -1px var(--gray);
+  overflow: hidden;
   border-radius: 10px;
-  padding: 20px;
+  box-shadow: 1px 10px 15px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cardsProjects2ParagraphBox {
   width: 100%;
@@ -94,16 +93,35 @@
 }
 
 .cardsProjects2Img {
-  width: 70%;
+  width: 100%;
+  height: auto;
+
 }
+
 span {
   font-weight: bolder;
 }
 .cardsProjects2Buttons {
   width: 70%;
   margin: auto;
+
+}
+
+.btnBack{
+  border-radius: 50px;
+  padding: 0.5rem 5rem;
+  background-color: var(--lightBlue);
+  border: none;
+  cursor: pointer;
+
+  color: var(--white);
+  text-decoration: underline;
+  font-size: 0.6rem;
 }
 @media (min-width: 768px) {
+  .cardProjectsContainer {
+    height: 65vh;
+  }
   .cardsProjects {
     width: 300px;
   }
@@ -121,7 +139,7 @@ span {
     font-size: 1rem;
   }
 
-  .btnAdd {
+  .btnVer, .btnBack {
     font-size: 0.8rem;
   }
   .cardsProjects2Buttons {
@@ -130,20 +148,11 @@ span {
 }
 
 @media (min-width: 1024px) {
-  .btnAdd {
+  .cardProjectsContainer {
+    height: 60vh;
+  }
+  .btnVer, .btnBack {
     font-size: 1rem;
   }
 }
 
-
-@media (min-width: 768px) {
-  .cardProjectsContainer {
-    height: 65vh;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cardProjectsContainer {
-    height: 60vh;
-  }
-}

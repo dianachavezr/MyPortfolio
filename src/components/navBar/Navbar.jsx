@@ -1,5 +1,6 @@
 import { Outlet, NavLink } from "react-router-dom";
 import "./navBar.css";
+import { motion } from "framer-motion/dist/framer-motion";
 
 import React from "react";
 
@@ -32,14 +33,32 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse " id="navbarText">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-                <NavLink
-                  to="/"
-                  className="nav-link active"
-                  style={navLinkStyles}
+                <motion.li
+                  className=""
+                  whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px rgb(128,0,128)",
+                    originY: 0,
+                  }}
+                  transition={{ type: "spring", stiffness: 300 }}
                 >
-                  Home
-                </NavLink>
-                <li className="nav-item">
+                  <NavLink
+                    to="/"
+                    className="nav-link active"
+                    style={navLinkStyles}
+                  >
+                    Home
+                  </NavLink>
+                </motion.li>
+                <motion.li
+                  className="nav-item"
+                  whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px rgb(128,0,128)",
+                    originY: 0,
+                  }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
                   <NavLink
                     to="/about"
                     className="nav-link  active"
@@ -47,8 +66,16 @@ const Navbar = () => {
                   >
                     About me
                   </NavLink>
-                </li>
-                <li className="nav-item">
+                </motion.li>
+                <motion.li
+                  className="nav-item"
+                  whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px rgb(128,0,128)",
+                    originY: 0,
+                  }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
                   <NavLink
                     to="/projects"
                     className="nav-link  active"
@@ -56,8 +83,16 @@ const Navbar = () => {
                   >
                     Projects
                   </NavLink>
-                </li>
-                <li className="nav-item">
+                </motion.li>
+                <motion.li
+                  className="nav-item"
+                  whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px rgb(128,0,128)",
+                    originY: 0,
+                  }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
                   <NavLink
                     to="/contact"
                     className="nav-link  active"
@@ -65,9 +100,17 @@ const Navbar = () => {
                   >
                     Contact
                   </NavLink>
-                </li>
+                </motion.li>
 
-                <li className="nav-item">
+                <motion.li
+                  className="nav-item"
+                  whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px rgb(128,0,128)",
+                    originY: 0,
+                  }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
                   <NavLink
                     to="/resume"
                     className="nav-link  active"
@@ -75,7 +118,7 @@ const Navbar = () => {
                   >
                     Resume
                   </NavLink>
-                </li>
+                </motion.li>
               </ul>
             </div>
           </div>

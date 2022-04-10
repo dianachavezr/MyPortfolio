@@ -1,17 +1,43 @@
-.cardsProjectsContainerTitle{
-    text-align: center;
-    background-color: yellow;
-    padding: 20px;
+.cardsProjectsContainerTitle {
+  text-align: center;
+  padding: 20px;
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
 }
 
-.cardsProjectsContainer{
+.cardsProjectsContainer {
+  width: 90vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 120px;
+}
+.loadMoreButton {
+  border-radius: 50px;
+  padding: 0.5rem 5rem;
+  background-color: var(--lightBlue);
+  border: none;
+  cursor: pointer;
+  color: var(--black);
+  text-decoration: underline;
+  font-size: 0.6rem;
+}
 
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    gap: 20px;
+@media (min-width: 768px) {
+  .cardsProjectsContainerTitle {
+    font-size: 3rem;
+  }
+  .loadMoreButton {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .loadMoreButton {
+    font-size: 1.5rem;
+  }
 }

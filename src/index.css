@@ -20,10 +20,9 @@ font-family: 'Andika New Basic', sans-serif;
   --white: #ffffff;
   --purpleGradient: linear-gradient(to right bottom, rgba(128,0,128,.25), rgba(80,125,188,.25));
   --purpleGradient2: linear-gradient(to right bottom, rgba(80,128,188,.5), rgba(128,0,128,.5));
-  --gradient: linear-gradient(to bottom right, red, yellow);
   --purple: #800080;
   --blue: #507DBC;
-  --transparent: rgba(0, 0, 0, 0);
+  --transparent: rgba(39, 31, 31, 0);
 }
 
 

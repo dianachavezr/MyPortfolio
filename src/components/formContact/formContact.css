@@ -39,6 +39,7 @@ textarea {
   justify-content: center;
   align-items: center;
   border: none;
+  text-decoration: underline;
 }
 
 .formButton button {
@@ -47,7 +48,12 @@ textarea {
   font-size: 2rem;
   font-weight: 800;
   font-family: "Fredoka One", cursive;
+  padding: 0 3rem;
+  border-radius: 50px;
+  
 }
+
+
 
 @media (min-width: 640px) {
   .formTitle {

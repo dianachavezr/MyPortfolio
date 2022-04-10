@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './cardsProjectsContainer.css'
 import CardsProjects from '../cardsProjects/CardsProjects'
 import projects from '../cardsProjects/projects';
+import { motion } from "framer-motion/dist/framer-motion";
 
 const CardsProjectsContainer = () => {
     const [filter, setFilter] = useState("");
@@ -21,6 +22,12 @@ const CardsProjectsContainer = () => {
     
     const [data1, setData1] = useState("");
 
+    const   [noOfElement, setNoOfElement] = useState(3);
+    const loadMore =()=>{
+      setNoOfElement(noOfElement +  noOfElement);
+    }
+    const slice = projects.projecstPortfolio.slice(0, noOfElement);
+
   return (
 <>
     <div className="">
@@ -29,7 +36,7 @@ const CardsProjectsContainer = () => {
       
     <div className='cardsProjectsContainer'>
          
-        {data.map((item, index) => {
+        {slice.map((item, index) => {
           if (item.category === data1 || data1 === "") {
             return (
                 <CardsProjects
@@ -39,13 +46,9 @@ const CardsProjectsContainer = () => {
                 title={item.title}
                 description={item.description}
                 description2={item.description2}
-                description3={item.description3}
-                specifications={item.specifications}
-                price={item.price}
-                size={item.size}
-                price2={item.price2}
-                size2={item.size2}
-                material={item.material}
+                description3={item. description3}
+                linkGitHub={item.linkGitHub}
+                link={item.link}
                 item={item}
                 key={index}
               />
@@ -53,6 +56,19 @@ const CardsProjectsContainer = () => {
             );
           }
         })}
+        <div className="">
+        <motion.button className='loadMoreButton' onClick={()=>loadMore()}
+                 whileHover={{
+                  scale: 1.05,
+                  textShadow: "0px 0px 8px rgb(128,0,128)",
+                  boxShadow: "0px 0px 8px rgb(128,0,128)",
+                  textDecoration: "none",
+                  originY: 0,
+                }}
+        >
+          Load More
+        </motion.button>
+        </div>
       </div>
       </>
   )
