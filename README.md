@@ -1,6 +1,12 @@
 
 
-### My Portfolio
+### My Portfolio 
+**DEPLOYMENT PAGE** : https://diana-chavez-portfolio.netlify.app/
+
+file:///home/mint/reactJs/myportfolio/src/assets/images/logo1.png![image](https://user-images.githubusercontent.com/82002959/162749455-92292ff7-c3d1-4fcc-8409-5a3a14923d6c.png)
+
+
+
 
 Hi, my name is Diana Chavez and this project was developed in order to create our personal portfolio to let vistors know about our job.
 
@@ -86,7 +92,6 @@ Pages and Components organization in ReactJs: The project has been divided by 5 
     
     Page : Resume Components: Navbar, ResumeContainer (Contains Logo Component as well), Prefooter, Footer
 
-**DEPLOYMENT PAGE** : https://diana-chavez-portfolio.netlify.app/
 
 My Portfolio
 
