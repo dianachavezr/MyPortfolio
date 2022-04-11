@@ -1,7 +1,7 @@
 import React from "react";
 import "./formContact.css";
 import emailjs from "emailjs-com";
-import swal from "sweetalert";
+import Swal from "sweetalert2";
 import { motion } from "framer-motion/dist/framer-motion";
 
 const FormContact = () => {
@@ -17,7 +17,13 @@ const FormContact = () => {
       .then((res) => {
         console.log(res);
         e.target.reset();
-        swal("Message Sent!", "", "success");
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Message Sent Successfully',
+          showConfirmButton: false,
+          timer: 1500
+        })
       });
   }
 

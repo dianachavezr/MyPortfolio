@@ -9,7 +9,6 @@ const Projects = () => {
     <AnimatedPage2>
       <div className="gralContainer">
        <CardsProjectsContainer />
-
         <PreFooter />
         <Footer />
       </div>
