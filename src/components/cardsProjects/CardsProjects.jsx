@@ -18,13 +18,21 @@ const CardsProjects = (props) => {
         flipSpeedBackToFront="1"
         flipSpeedFrontToBack="1"
       >
-        <motion.div className="cardsProjecsContainer"
-                           initial={{opacity:0}}
-                           animate={{opacity:1,  marginTop:0}}
-                           transition={{delay:1, duration:1.5}}
+        <motion.div
+          className="cardsProjecsContainer"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, marginTop: 0 }}
+          transition={{ delay: 1, duration: 1.5 }}
         >
           <motion.div
             className="cardsProjects"
+            whileHover={{
+              scale: 1.05,
+              textShadow: "0px 0px 8px rgb(128,0,128)",
+              boxShadow: "0px 0px 8px rgb(128,0,128)",
+              textDecoration: "none",
+              originY: 0,
+            }}
             transition={{ type: "spring", stiffness: 500 }}
           >
             <div className="cardsProjectsImgBox">
@@ -57,11 +65,17 @@ const CardsProjects = (props) => {
             className="cardsProjects2"
             /*     whileHover={{scale:1.1, color:'yellow', originY:0}}
                 transition={{type:'spring', stiffness:500}} */
+            whileHover={{
+              scale: 1.05,
+              textShadow: "0px 0px 8px rgb(128,0,128)",
+              boxShadow: "0px 0px 8px rgb(128,0,128)",
+              textDecoration: "none",
+              originY: 0,
+            }}
+            transition={{ type: "spring", stiffness: 500 }}
           >
             <h3 className="cardsProjects2Title">{props.title}</h3>
             <div className="cardsProjects2Box">
-       
-
               <div className="cardsProjects2ParagraphBox">
                 <p className="cardsProjects2Paragraph">
                   <span>Description: </span>
@@ -80,18 +94,17 @@ const CardsProjects = (props) => {
 
                 <p className="cardsProjects2Paragraph">
                   <span>Link to Github Repository: </span>
-                  <a href= {props.linkGitHub} className="" target='_blank'>
+                  <a href={props.linkGitHub} className="" target="_blank">
                     {props.linkGitHub}
                   </a>
                 </p>
 
                 <p className="cardsProjects2Paragraph">
                   <span>Link to Page: </span>
-                  <a href= {props.link} className="" target='_blank'>
-                  {props.link}
+                  <a href={props.link} className="" target="_blank">
+                    {props.link}
                   </a>
                 </p>
-                
               </div>
               <div className="cardsProjects2ImgBox">
                 <img src={props.img3} alt="" className="cardsProjects2Img" />

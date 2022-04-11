@@ -47,10 +47,7 @@ const AboutSkills = () => {
       >
         <h3 className="aboutSkillsMeTitle">About me</h3>
         <p className="aboutSkillsMeParagraph">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sunt
-          dolore sint qui, id doloribus excepturi, ducimus, in molestias saepe
-          corporis laudantium eius. Similique nihil facilis atque explicabo,
-          magni mollitia.
+        I have knowledge and experience in some of the most used programming languages for Front-End such a HTML, CSS, Bootrap and ReactJs, and I also have knowlege in Back-End programming language such a PHP, MySQL, and MongoDB, I understand how the connetion between each side works and I am able to work in both sides.
         </p>
       </motion.div>
     </motion.div>
