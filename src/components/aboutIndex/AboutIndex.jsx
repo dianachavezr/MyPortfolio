@@ -14,7 +14,10 @@ const AboutIndex = () => {
       <p className="aboutIndexParagraph">
         Hi, my name is Diana Chavez, I am a Full-Stack Developer Jr who is
         looking for new challenges, I am a team worker, adaptable to changes
-        with a relevant experience is AGILE and SCRUM metodologies, I also have knowledge in different tecnologies of Front-End and Back-End, feel free to see some of my projects in this portfolio, thanks for visiting me, hope you enjoy...
+        with a relevant experience is AGILE and SCRUM metodologies, I also have
+        knowledge in different tecnologies of Front-End and Back-End, feel free
+        to see some of my projects in this portfolio, thanks for visiting me,
+        hope you enjoy...
       </p>
     </motion.div>
   );
