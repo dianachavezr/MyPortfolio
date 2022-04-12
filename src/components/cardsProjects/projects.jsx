@@ -10,7 +10,9 @@ import project4 from "../../assets/images/cena.png";
 import Project5 from "../../assets/images/todolist.png";
 import project5 from "../../assets/images/todolist.png";
 
+
 const projects = {
+  
   projecstPortfolio: [
 
     {
@@ -21,7 +23,7 @@ const projects = {
       description: "ReactJs & MongoDB Project",
       description2:
         "This project was made as part of our MongoDB training and to understand the conexion process between Front-End and Back-End",
-      description3: "Tecnologies Used: ReactJs, MongoDB.",
+      description3: "ReactJs, MongoDB.",
 
       linkGitHub: "https://github.com/dianachavezr/-todolistprojectcrud-front-end",
       link: "https://todolistcrudmongodb.netlify.app/",
@@ -61,7 +63,7 @@ const projects = {
       description: "Covid APIRest JavaScript Project",
       description2:
         "This project was made in order to demonstrate the knowledge of API fetch with JavaScript.",
-      description3: "HTML,CSS,JavaScript, ",
+      description3: "HTML,CSS,JavaScript.",
 
       linkGitHub: "https://github.com/dianachavezr/E-commerceAndika3D",
       link: "https://dianachavezr.github.io/E-commerceAndika3D/",
@@ -87,7 +89,7 @@ const projects = {
       description: "ReactJs & MongoDB Project",
       description2:
         "This project was made as part of our MongoDB training and to understand the conexion process between Front-End and Back-End",
-      description3: "Tecnologies Used: ReactJs, MongoDB.",
+      description3: "ReactJs, MongoDB.",
 
       linkGitHub: "https://github.com/dianachavezr/-todolistprojectcrud-front-end",
       link: "https://todolistcrudmongodb.netlify.app/",
@@ -127,7 +129,7 @@ const projects = {
       description: "Covid APIRest JavaScript Project",
       description2:
         "This project was made in order to demonstrate the knowledge of API fetch with JavaScript.",
-      description3: "HTML,CSS,JavaScript, ",
+      description3: "HTML,CSS,JavaScript.",
 
       linkGitHub: "https://github.com/dianachavezr/E-commerceAndika3D",
       link: "https://dianachavezr.github.io/E-commerceAndika3D/",

@@ -9,8 +9,11 @@ import Bootstrap from "../../assets/images/bootstrap.png";
 import Php from "../../assets/images/php.png";
 import MySql from "../../assets/images/mysql.png";
 import { motion } from "framer-motion/dist/framer-motion";
+import { useTranslation } from "react-i18next";
 
 const AboutSkills = () => {
+  const [t, i18n]= useTranslation("global");
+  
   return (
     <motion.div className="aboutSkillsContainer">
       <motion.div
@@ -45,9 +48,9 @@ const AboutSkills = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1.5 }}
       >
-        <h3 className="aboutSkillsMeTitle">About me</h3>
+        <h3 className="aboutSkillsMeTitle">{t("aboutMe.aboutMe")}</h3>
         <p className="aboutSkillsMeParagraph">
-        I have knowledge and experience in some of the most used programming languages for Front-End such a HTML, CSS, Bootrap and ReactJs, and I also have knowlege in Back-End programming language such a PHP, MySQL, and MongoDB, I understand how the connetion between each side works and I am able to work in both sides.
+        {t("aboutMe.paragraph")}
         </p>
       </motion.div>
     </motion.div>

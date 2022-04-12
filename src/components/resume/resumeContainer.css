@@ -57,6 +57,8 @@
 
 .resumeContainer2Buttons {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .resumeContainer2btnBack,
@@ -69,6 +71,7 @@
   color: var(--white);
   text-decoration: underline;
   font-size: 0.6rem;
+  margin-bottom: 10px;
 }
 @media (min-width: 768px) {
   .resumeContainerGral {
@@ -91,6 +94,10 @@
   .resumeContainerGral {
     padding: 9vh 0;
   }
+  .resumeContainerBox {
+    width: 320px;
+  }
+
   .resumeContainerbtnSee,
   .resumeContainer2btnBack,
   .resumeContainer2btnDownload {

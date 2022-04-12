@@ -1,12 +1,13 @@
 import React from "react";
 import "./footer.css";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const [t, i18n]= useTranslation("global");
   return (
     <div className="footerContainer">
       <p className="footerParagraph">
-        © Copyright 2022. All rights reserved. Developed by Diana Patricia
-        Chavez Realpe
+      {t("footer.footer")}
       </p>
     </div>
   );

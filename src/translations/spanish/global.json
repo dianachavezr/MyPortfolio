@@ -1,0 +1,56 @@
+
+{
+    "navBar": {
+        "home": "Inicio",
+        "about": "Acerca de mí",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "resume": "Resume"
+    },
+    "aboutIndex": {
+        "aboutMe": "Acerca de mí",
+        "paragraph": "Hola, mi nombre es Diana Chavez, soy Full-Stack Developer Jr y cuento con experiencia relevante en metodologías AGILE y SCRUM, también tengo conocimientos en diferentes lenguajes de programación en Front-End y Back-End, te invito a que veas algunos de mis proyectos en este portafolio, gracias por visitarme, espero que disfrutes tu visita..."
+    },
+    "aboutMe":{
+        "aboutMe":"Acerca de mí",
+        "paragraph": "Tengo conocimiento y experiencia en algunos de los lenguajes de programación más importantes y más utilizados para Front-End  (HTML, CSS, Bootrap y ReactJs), y  Back-End (PHP, MySQL, y MongoDB), entiendo cómo funciona la conexión entre ambos lados y soy capaz de trabajar con estos lenguajes de programación."
+    },
+
+    "cardsProjects":{
+        "btnSeeMore": "Ver más",
+        "cardsProjec2Title": "Descripción:",
+        "cardsProjects2Languages": "Lenguajes de programación: ",
+        "linkToGithub": "Link al respositorio en Github : ",
+        "linkToWebPage": "Link a la Página Web: ",
+        "btnGoBack": "Volver"
+    },
+
+    "projectsContainer":{
+        "title": "Algunos de mis proyectos",
+        "loadMore": "Cargar más"
+    },
+
+
+    "formContact":{
+        "title": "Contacto",
+        "placeholderCompany": "Compañía: ",
+        "placeholderName": "Nombre: ",
+        "placeholderEmail": "Email: ",
+        "placeholderMessage": "Mensaje: ",
+        "btnSubmit": "Enviar"
+    },
+
+    "resumeContainer":{
+        "paragraph": "Hola,  aquí puedes ver la vista previa de mi Resume, puedes descargarlo y contactarme, gracias por ver mi portafolio...",
+        "paragraph2":"Soy Diana Chávez  Desarrolladora Full-Stack Jr en busca de nuevos retos con todas las ganas de aprender y crecer como Desarrolladora Web, no dudes en ponerte en contacto conmigo, y gracias por ver mi portafolio, también puedes descargar mi Resume con el botón de Descarga en la parte inferior.",
+        "btnPreview":"Resume Vista Previa",
+        "btnGoBack": "Volver",
+        "btnDownloadSpa": "Descargar CV Español",
+        "btnDownloadEng": "Descargar CV Inglés"
+    },
+
+
+    "footer":{
+        "footer": "© Copyright 2022. Todos los derechos reservados. Desarrollado por Diana Patricia Chavez Realpe"
+    }
+}

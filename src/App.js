@@ -11,8 +11,11 @@ import NoPage from './pages/NoPage'
 import { AnimatePresence } from 'framer-motion/dist/framer-motion'
 
 
+
+
 function App() {
   return (
+
     <BrowserRouter>
     <AnimatePresence  >
     <Routes>
@@ -28,6 +31,8 @@ function App() {
 
     </AnimatePresence >
   </BrowserRouter>
+
+
   );
 }
 

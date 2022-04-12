@@ -1,10 +1,16 @@
 import { Outlet, NavLink } from "react-router-dom";
 import "./navBar.css";
 import { motion } from "framer-motion/dist/framer-motion";
-
+import { useTranslation } from "react-i18next";
 import React from "react";
+import Spanish from '../../assets/images/spanish.png'
+import English from '../../assets/images/english.png'
+
+
 
 const Navbar = () => {
+  const [t, i18n]= useTranslation("global");
+ 
   const navLinkStyles = ({ isActive }) => {
     return {
       fontWeight: isActive ? "bold" : "normal",
@@ -14,6 +20,8 @@ const Navbar = () => {
 
   return (
     <>
+
+    
       <div className="navContainer ">
         <nav
           className=" navbar-expand-lg navbar navbar-dark"
@@ -47,7 +55,7 @@ const Navbar = () => {
                     className="nav-link active"
                     style={navLinkStyles}
                   >
-                    Home
+                     {t("navBar.home")}
                   </NavLink>
                 </motion.li>
                 <motion.li
@@ -64,7 +72,7 @@ const Navbar = () => {
                     className="nav-link  active"
                     style={navLinkStyles}
                   >
-                    About me
+                      {t("navBar.about")}
                   </NavLink>
                 </motion.li>
                 <motion.li
@@ -81,7 +89,7 @@ const Navbar = () => {
                     className="nav-link  active"
                     style={navLinkStyles}
                   >
-                    Projects
+                    {t("navBar.projects")}
                   </NavLink>
                 </motion.li>
                 <motion.li
@@ -98,7 +106,7 @@ const Navbar = () => {
                     className="nav-link  active"
                     style={navLinkStyles}
                   >
-                    Contact
+                    {t("navBar.contact")}
                   </NavLink>
                 </motion.li>
 
@@ -116,16 +124,26 @@ const Navbar = () => {
                     className="nav-link  active"
                     style={navLinkStyles}
                   >
-                    Resume
+                    {t("navBar.resume")}
                   </NavLink>
                 </motion.li>
               </ul>
             </div>
+            <div className="btnNavLanguage">
+            <button className="" onClick={()=>i18n.changeLanguage('english')}>
+                    <img src={English} alt="" className="flag" />
+                    </button>
+                    <button  className="" onClick={()=>i18n.changeLanguage('spanish')}>
+                    <img src={Spanish} alt="" className="flag" />
+                    </button>
+                    </div>
           </div>
+                  
         </nav>
       </div>
 
       <Outlet />
+
     </>
   );
 };

@@ -3,8 +3,10 @@ import "./formContact.css";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import { motion } from "framer-motion/dist/framer-motion";
+import { useTranslation } from "react-i18next";
 
 const FormContact = () => {
+  const [t, i18n]= useTranslation("global");
   function sendEmail(e) {
     e.preventDefault();
     emailjs
@@ -29,14 +31,14 @@ const FormContact = () => {
 
   return (
     <div className="formContainerGral">
-      <h2 className="formTitle">Contact</h2>
+      <h2 className="formTitle">{t("formContact.title")}</h2>
       <div className="formContainer">
         <form className="formBody" onSubmit={sendEmail}>
           <div className="">
             <input
               type="text"
               className=""
-              placeholder="Company:"
+              placeholder= {t("formContact.placeholderCompany")}
               name="company"
             />
           </div>
@@ -44,7 +46,7 @@ const FormContact = () => {
             <input
               type="text"
               className=""
-              placeholder="Name:"
+              placeholder={t("formContact.placeholderName")}
               required
               name="name"
             />
@@ -53,7 +55,7 @@ const FormContact = () => {
             <input
               type="email"
               className=""
-              placeholder="Email:"
+              placeholder={t("formContact.placeholderEmail")}
               required
               name="email"
             />
@@ -64,7 +66,7 @@ const FormContact = () => {
               id=""
               cols="30"
               rows="4"
-              placeholder="Message:"
+              placeholder={t("formContact.placeholderMessage")}
               required
             ></textarea>
           </div>
@@ -86,7 +88,7 @@ const FormContact = () => {
               }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              Submit
+              {t("formContact.btnSubmit")}
             </motion.button>
           </motion.div>
         </form>

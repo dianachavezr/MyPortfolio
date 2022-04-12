@@ -1,0 +1,57 @@
+
+{
+    "navBar": {
+        "home": "Home",
+        "about": "About me",
+        "projects": "Projects",
+        "contact": "Contact",
+        "resume": "Resume"
+    },
+
+    "aboutIndex": {
+        "aboutMe": "About Me",
+        "paragraph": "Hello, my name is Diana Chavez, I am Full-Stack Developer Jr and I have relevant experience in AGILE and SCRUM methodologies, I also have knowledge in different programming languages in Front-End and Back-End, I invite you to see some of my projects in this portfolio, thank you for visiting me, I hope you enjoy..."
+    },
+
+    "aboutMe":{
+        "aboutMe":"About me",
+        "paragraph": "I have knowledge and experience in some of the most important and most used programming languages for Front-End (HTML, CSS, Bootrap and ReactJs), and Back-End (PHP, MySQL, and MongoDB), I understand how the connection between both sides works and I am able to work with these programming languages."
+    },
+    "cardsProjects":{
+        "btnSeeMore": "See more",
+        "cardsProjec2Title": "Description:",
+        "cardsProjects2Languages": "Programming Languages: ",
+        "linkToGithub": "Link to Github Repository: ",
+        "linkToWebPage": "Link to Web Page: ",
+        "btnGoBack": "Go back"
+    },
+
+    "projectsContainer":{
+        "title": "Some of my projects",
+        "loadMore": "Load More"        
+    },
+
+    "formContact":{
+        "title": "Contact",
+        "placeholderCompany": "Company: ",
+        "placeholderName": "Name: ",
+        "placeholderEmail": "Email: ",
+        "placeholderMessage": "Message: ",
+        "btnSubmit": "Submit"
+
+    },
+
+    "resumeContainer":{
+        "paragraph": "Hello, here you can see the preview of my Resume, you can download it and contact me, thanks for viewing my portfolio....",
+        "paragraph2":"I am Diana Chavez Full-Stack Jr Developer looking for new challenges with all the desire to learn and grow as a Web Developer, do not hesitate to contact me, and thank you for viewing my portfolio, you can also download my Resume with the Download button at the bottom.",
+        "btnPreview":"Preview Resume",
+        "btnGoBack": "Go back",
+        "btnDownloadSpa": "Download CV Spanish",
+        "btnDownloadEng": "Download CV English"
+    },
+
+
+    "footer":{
+        "footer": "© Copyright 2022. All rights reserved. Developed by Diana Patricia Chavez Realpe"
+    }
+}

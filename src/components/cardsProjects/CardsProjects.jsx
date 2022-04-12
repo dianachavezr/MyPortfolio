@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import "./cardsProjects.css";
 import { motion } from "framer-motion/dist/framer-motion";
+import { useTranslation } from "react-i18next";
 
 const CardsProjects = (props) => {
+  const [t, i18n]= useTranslation("global");
   const [isFlipped, setIsFlipped] = useState(false);
   const handleClick = () => {
     setIsFlipped(!isFlipped);
@@ -55,7 +57,7 @@ const CardsProjects = (props) => {
               }}
               transition={{ type: "spring", stiffness: 500 }}
             >
-              See more
+              {t("cardsProjects.btnSeeMore")}
             </motion.button>
           </motion.div>
         </motion.div>
@@ -78,7 +80,7 @@ const CardsProjects = (props) => {
             <div className="cardsProjects2Box">
               <div className="cardsProjects2ParagraphBox">
                 <p className="cardsProjects2Paragraph">
-                  <span>Description: </span>
+                  <span> {t("cardsProjects.cardsProjec2Title")} </span>
                   {props.description2}
                 </p>
               </div>
@@ -88,19 +90,19 @@ const CardsProjects = (props) => {
             <div className="cardsProjects2Box">
               <div className="cardsProjects2ParagraphBox">
                 <p className="cardsProjects2Paragraph">
-                  <span>Tecnologies Used: </span>
+                  <span>{t("cardsProjects.cardsProjects2Languages")}</span>
                   {props.description3}
                 </p>
 
                 <p className="cardsProjects2Paragraph">
-                  <span>Link to Github Repository: </span>
+                  <span>{t("cardsProjects.linkToGithub")} </span>
                   <a href={props.linkGitHub} className="" target="_blank">
                     {props.linkGitHub}
                   </a>
                 </p>
 
                 <p className="cardsProjects2Paragraph">
-                  <span>Link to Page: </span>
+                  <span>{t("cardsProjects.linkToWebPage")} </span>
                   <a href={props.link} className="" target="_blank">
                     {props.link}
                   </a>
@@ -124,7 +126,7 @@ const CardsProjects = (props) => {
                 }}
                 transition={{ type: "spring", stiffness: 500 }}
               >
-                Go back
+                 {t("cardsProjects.btnGoBack")}
               </motion.button>
             </div>
           </motion.div>

@@ -3,8 +3,10 @@ import './cardsProjectsContainer.css'
 import CardsProjects from '../cardsProjects/CardsProjects'
 import projects from '../cardsProjects/projects';
 import { motion } from "framer-motion/dist/framer-motion";
+import { useTranslation } from "react-i18next";
 
 const CardsProjectsContainer = () => {
+  const [t, i18n]= useTranslation("global");
     const [filter, setFilter] = useState("");
     const searchText = (event) => {
       setFilter(event.target.value);
@@ -31,7 +33,7 @@ const CardsProjectsContainer = () => {
   return (
 <>
     <div className="">
-    <h2 className="cardsProjectsContainerTitle">Some of my projects</h2>
+    <h2 className="cardsProjectsContainerTitle">{t("projectsContainer.title")}</h2>
     </div>
       
     <div className='cardsProjectsContainer'>
@@ -66,7 +68,7 @@ const CardsProjectsContainer = () => {
                   originY: 0,
                 }}
         >
-          Load More
+          {t("projectsContainer.loadMore")}
         </motion.button>
         </div>
       </div>

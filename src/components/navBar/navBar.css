@@ -13,7 +13,20 @@
   font-family: "Fredoka One", cursive;
   font-size: 1.5rem;
 }
+.btnNavLanguage{
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btnNavLanguage button{
+  background-color:transparent;
+  border:none;
+}
+.flag{
+  width: 50px;
 
+}
 @media (min-width: 992px) {
   .navbar-nav,
   .mr-auto {
