@@ -15,8 +15,6 @@ const Index = () => {
     <div className='gralContainer'>
        <AboutIndex />
        <Logo />
-       <Redes />
-       <Logo2 />
        <Footer />
     </div>
     </AnimatedPage>

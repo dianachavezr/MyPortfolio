@@ -9,11 +9,11 @@
     },
     "aboutIndex": {
         "aboutMe": "Acerca de mí",
-        "paragraph": "Hola, mi nombre es Diana Chavez, soy Full-Stack Developer Jr y cuento con experiencia relevante en metodologías AGILE y SCRUM, también tengo conocimientos en diferentes lenguajes de programación en Front-End y Back-End, te invito a que veas algunos de mis proyectos en este portafolio, gracias por visitarme, espero que disfrutes tu visita..."
+        "paragraph": "Hola, mi nombre es Diana Chavez, soy Full-Stack Developer Jr, cuento con experiencia relevante en metodologías AGILE y SCRUM, también tengo conocimientos en diferentes lenguajes de programación en Front-End y Back-End, te invito a que veas algunos de mis proyectos en este portafolio, gracias por visitarme, espero que disfrutes tu visita..."
     },
     "aboutMe":{
         "aboutMe":"Acerca de mí",
-        "paragraph": "Tengo conocimiento y experiencia en algunos de los lenguajes de programación más importantes y más utilizados para Front-End  (HTML, CSS, Bootrap y ReactJs), y  Back-End (PHP, MySQL, y MongoDB), entiendo cómo funciona la conexión entre ambos lados y soy capaz de trabajar con estos lenguajes de programación."
+        "paragraph": "Conocimiento y experiencia en Front-End  (HTML, CSS, Bootrap, JavaScript, ReactJs), Back-End (PHP, Laravel, Python,  Django), y Bases de datos (MySQL, y MongoDB), entiendo cómo funciona la conexión entre el Front-End y el Back-End y poseo la capacidad para trabajar con dichas tecnologías."
     },
 
     "cardsProjects":{

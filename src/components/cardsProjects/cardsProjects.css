@@ -147,7 +147,11 @@ span {
 
 @media (min-width: 1024px) {
   .cardProjectsContainer {
-    height: 60vh;
+    height: 100%;
+  }
+  .cardsProjects {
+    margin-bottom: 0;
+ 
   }
   .btnVer, .btnBack {
     font-size: 1rem;

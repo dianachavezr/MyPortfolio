@@ -15,8 +15,9 @@
 
     "aboutMe":{
         "aboutMe":"About me",
-        "paragraph": "I have knowledge and experience in some of the most important and most used programming languages for Front-End (HTML, CSS, Bootrap and ReactJs), and Back-End (PHP, MySQL, and MongoDB), I understand how the connection between both sides works and I am able to work with these programming languages."
+        "paragraph": "Knowledge and experience in Front-End (HTML, CSS, Boottrap, JavaScript, ReactJs), Back-End (PHP, Python, Laravel, Django) and Databases (MySQL and MongoDB), I understand how the connection between Front-end works and Back-end and I have the ability to work with these technologies."
     },
+
     "cardsProjects":{
         "btnSeeMore": "See more",
         "cardsProjec2Title": "Description:",

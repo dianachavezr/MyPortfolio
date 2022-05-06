@@ -1,11 +1,12 @@
 .resumeContainerGral {
   text-align: center;
-  padding: 18vh 0;
+  padding: 6.2vh 0;
   display: block;
   justify-content: flex-start;
   align-items: center;
   height: auto;
 }
+
 .resumeContainerGralParagraph {
   padding: 0 20px;
 }
@@ -92,7 +93,7 @@
 
 @media (min-width: 1024px) {
   .resumeContainerGral {
-    padding: 9vh 0;
+    padding: 7.6vh 0;
   }
   .resumeContainerBox {
     width: 320px;
@@ -105,5 +106,20 @@
   }
   .resumeContainer2 {
     width: 50%;
+  }
+}
+
+
+
+@media (min-width: 1440px) {
+  .resumeContainerGral {
+    padding: 7.2vh 0;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  .resumeContainerGral {
+    padding: 8.5vh 0;
   }
 }

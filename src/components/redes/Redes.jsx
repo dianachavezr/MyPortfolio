@@ -55,7 +55,7 @@ const Redes = () => {
         />
       </a>
       <a
-        href="https://api.whatsapp.com/send?phone==[57][3196569316]&text=Hola me encanto tu porfafolio y quisiera invitarte  a que hagas parte de nuestro equipo"
+        href="https://api.whatsapp.com/send?phone==[57][3196569316]&text=Hi, we would like to contact you"
         className=""
         target="_blank"
       >

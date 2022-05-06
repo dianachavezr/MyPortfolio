@@ -40,8 +40,21 @@
 @media (min-width: 1024px) {
   .loadMoreButton {
     font-size: 1.5rem;
+    padding: 0.5rem 5rem;
   }
   .cardsProjectsContainer {
     gap: 80px;
+    height: 100%;
+    padding: 0;
   }
 }
+
+
+@media (min-width: 1440px) {
+  .cardsProjectsContainer {
+    gap: 80px;
+    height: 48vh;
+    padding: 0;
+  }
+}
+

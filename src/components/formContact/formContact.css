@@ -3,9 +3,8 @@
   justify-content: center;
   align-content: center;
   text-align: center;
-  height: 70vh;
-
-}
+  height: 59.5vh;
+  }
 
 .formContainer {
   display: flex;
@@ -34,6 +33,15 @@ textarea {
   font-size: 1rem;
 }
 
+.formBody input{
+ height: 6vh;
+}  
+
+.formBody textarea {
+  height: 12vh;
+}
+
+
 .formButton {
   display: flex;
   justify-content: center;
@@ -56,6 +64,9 @@ textarea {
 
 
 @media (min-width: 640px) {
+  .formContainerGral {
+    height:64vh  ;
+  }
   .formTitle {
     font-size: 2.5rem;
     padding: 50px 0 0 0;
@@ -86,12 +97,37 @@ textarea {
 
 
 @media (min-width: 1024px) {
-
+  .formContainerGral {
+    height:64vh  ;
+  }
 
   .formBody input,
   textarea {
   width: 80%;
-
-  
 }
+}
+
+
+@media (min-width: 1440px) {
+  .formContainerGral {
+    height:60vh  ;
+  }
+
+}
+
+
+
+@media (min-width: 1500px) {
+  .formBody {
+    height: 45vh;
+  }
+  .formBody input{
+  width: 70%;
+  height: 6vh;
+}
+.formBody textarea {
+width: 70%;
+height: 12vh;
+}
+
 }

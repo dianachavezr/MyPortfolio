@@ -39,7 +39,7 @@ const projects = {
       description3: "ReactJs, CSS",
 
       linkGitHub: "https://github.com/dianachavezr/E-commerceAndika3D",
-      link: "https://dianachavezr.github.io/E-commerceAndika3D/",
+      link: "https://e-commerceandika3d.netlify.app/",
     },
     {
       id: 3,
@@ -52,7 +52,7 @@ const projects = {
       description3: "ReactJs, Axios, CSS Bootstrap.",
 
       linkGitHub: "https://github.com/dianachavezr/ApiRickAndMorty",
-      link: "https://dianachavezr.github.io/ApiRickAndMorty/",
+      link: "https://apirickandmortyproject.netlify.app/",
     },
   
     {
@@ -66,7 +66,7 @@ const projects = {
       description3: "HTML,CSS,JavaScript.",
 
       linkGitHub: "https://github.com/dianachavezr/E-commerceAndika3D",
-      link: "https://dianachavezr.github.io/E-commerceAndika3D/",
+      link: "https://covidapirestproject.netlify.app/",
     },
     {
       id: 5,
@@ -132,7 +132,7 @@ const projects = {
       description3: "HTML,CSS,JavaScript.",
 
       linkGitHub: "https://github.com/dianachavezr/E-commerceAndika3D",
-      link: "https://dianachavezr.github.io/E-commerceAndika3D/",
+      link: "https://covidapirestproject.netlify.app/",
     },
 
   ],

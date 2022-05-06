@@ -1,7 +1,6 @@
 .aboutIndex {
   width: 100vw;
-  height: 30vh;
-  padding: 30px;
+  height: 28vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,8 +9,7 @@
 
 .aboutIndexTitle {
   text-align: center;
-  font-size: 1.5rem;
-  padding-top: 35px;
+  padding: 10px 35px;
 }
 
 .aboutIndexParagraph {
@@ -22,11 +20,7 @@
 
 @media (min-width: 768px) {
   .aboutIndex {
-    padding: 0px 100px;
-    height: 25vh;
-  }
-  .aboutIndexTitle {
-    font-size: 2rem;
+    height: 35vh;
   }
 
   .aboutIndexParagraph {
@@ -34,10 +28,23 @@
   }
 }
 
-@media (min-width: 1024) {
+@media (min-width: 1280px) {
   .aboutIndex {
-    padding: 0px 100px;
-    height: 22vh;
-  }
+    height: 28vh;
 
+  }
 }
+
+@media (min-width: 1440px) {
+  .aboutIndexTitle {
+    font-size: 2.5rem;
+
+  }
+  .aboutIndexParagraph {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
