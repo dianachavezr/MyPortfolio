@@ -10,12 +10,12 @@
 
     "aboutIndex": {
         "aboutMe": "About Me",
-        "paragraph": "Hello, my name is Diana Chavez, I am Full-Stack Developer Jr and I have relevant experience in AGILE and SCRUM methodologies, I also have knowledge in different programming languages in Front-End and Back-End, I invite you to see some of my projects in this portfolio, thank you for visiting me, I hope you enjoy..."
+        "paragraph": "Hello, my name is Diana Chavez, I am Full-Stack Developer Jr with relevant experience in AGILE and SCRUM methodologies and different programming languages both Front-End and Back-End, I invite you to see some of my projects in this portfolio, thank you for visiting me, I hope you enjoy..."
     },
 
     "aboutMe":{
         "aboutMe":"About me",
-        "paragraph": "Knowledge and experience in Front-End (HTML, CSS, Boottrap, JavaScript, ReactJs), Back-End (PHP, Python, Laravel, Django) and Databases (MySQL and MongoDB), I understand how the connection between Front-end works and Back-end and I have the ability to work with these technologies."
+        "paragraph": "Knowledge and experience in Linux, Front-End (HTML, CSS, Bootstrap, JavaScript, ReactJs), Back-End (PHP, Python, Laravel, Django) and Databases (MySQL and MongoDB), I understand how the connection between Front-end works and Back-end and I have the skills to work with these technologies."
     },
 
     "cardsProjects":{
@@ -43,7 +43,7 @@
     },
 
     "resumeContainer":{
-        "paragraph": "Hello, here you can see the preview of my Resume, you can download it and contact me, thanks for viewing my portfolio....",
+        "paragraph": "Hello, here you can see the preview of my Resume, please download it and contact me, thanks for viewing my portfolio....",
         "paragraph2":"I am Diana Chavez Full-Stack Jr Developer looking for new challenges with all the desire to learn and grow as a Web Developer, do not hesitate to contact me, and thank you for viewing my portfolio, you can also download my Resume with the Download button at the bottom.",
         "btnPreview":"Preview Resume",
         "btnGoBack": "Go back",
