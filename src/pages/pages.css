@@ -3,6 +3,37 @@
   background: var(--purpleGradient);
   height: 100%;
   text-align: center;
-  
 }
 
+.title404{
+  height: 27vh;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem; 
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+@media (min-width: 768px) {
+
+  .logo2404{    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+   }
+   .title404{
+    height: 34vh;
+  }
+
+}
+
+@media (min-width: 1024px) {
+.logo2404{
+    height: 45vh;
+ }
+   .title404{
+    height: 13vh;
+  }
+
+}

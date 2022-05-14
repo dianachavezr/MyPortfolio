@@ -54,5 +54,9 @@
 
     "footer":{
         "footer": "© Copyright 2022. All rights reserved. Developed by Diana Patricia Chavez Realpe"
+    },
+
+    "nopage":{
+        "nopage": "Sorry, the page you are searching for doesn't exist." 
     }
 }

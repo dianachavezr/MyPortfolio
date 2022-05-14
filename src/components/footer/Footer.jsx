@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
       <div className="preFooterRedes">
       <a
-        href="https://www.linkedin.com/in/diana-chavez-a053441b2/"
+        href="https://www.linkedin.com/in/dianachavezrealpe/"
         className=""
         target="_blank"
       >
@@ -78,7 +78,7 @@ const Footer = () => {
           }}
         />
         </a>
-              <a href="https://api.whatsapp.com/send?phone==[57][3196569316]&text=Hola me encanto tu porfafolio y quisiera invitarte a que hagas parte de nuestro equipo" className="" target='_blank'>
+              <a href="https://api.whatsapp.com/send?phone==[57][3196569316]&text=Hi, we would like to contact you" className="" target='_blank'>
         <motion.img
           src={Whatsapp}
           alt="whatsapp"
