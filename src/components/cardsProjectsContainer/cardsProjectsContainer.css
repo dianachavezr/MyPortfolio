@@ -49,7 +49,6 @@
   }
 }
 
-
 @media (min-width: 1440px) {
   .cardsProjectsContainer {
     gap: 80px;
@@ -57,4 +56,3 @@
     padding: 0;
   }
 }
-
