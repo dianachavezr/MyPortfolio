@@ -5,7 +5,7 @@ import { motion } from "framer-motion/dist/framer-motion";
 import { useTranslation } from "react-i18next";
 
 const CardsProjects = (props) => {
-  const [t, i18n]= useTranslation("global");
+  const [t, i18n] = useTranslation("global");
   const [isFlipped, setIsFlipped] = useState(false);
   const handleClick = () => {
     setIsFlipped(!isFlipped);
@@ -126,7 +126,7 @@ const CardsProjects = (props) => {
                 }}
                 transition={{ type: "spring", stiffness: 500 }}
               >
-                 {t("cardsProjects.btnGoBack")}
+                {t("cardsProjects.btnGoBack")}
               </motion.button>
             </div>
           </motion.div>
